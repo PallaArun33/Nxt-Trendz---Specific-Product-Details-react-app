@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.product-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 250px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.product-item-image {
+  width: 250px;
+}
+.title-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.brand-para {
+  font-size: 18px;
+  color: #616e7c;
+}
+.rupee-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rupees-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.rating-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 60px;
+  height: 30px;
+}
+.star-image {
+  height: 20px;
+  width: 20px;
+}
